@@ -14,7 +14,7 @@ int main() {
         int sourceNode = std::rand() % Graph.Vertices();
         int targetNode = std::rand() % Graph.Vertices();
         
-        dijkstra.run(sourceNode, targetNode); 
+        dijkstra(sourceNode, targetNode); 
 
     } 
     end_time = clock(); 
